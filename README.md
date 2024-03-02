@@ -13,3 +13,30 @@
 <div align="center">
 <img  src="/exe.png" alt="Ejecucion de Programa">
 </div>
+
+## Pasos 🚶🏻
+
+### Verificar si se tiene Instalado Python
+``python
+    python --version
+``
+
+### En caso de No, Seguir estos pasos:
+#### Linux:
+``bash
+    sudo apt-get update
+    sudo apt-get install python3
+``
+
+#### Mac:
+``bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+``
+``bash
+    brew install python3
+``
+
+#### Windows:
+Url: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/<a> <br>
+
+<p> Asegúrate de marcar la casilla que dice "Add Python to PATH" durante la instalación para que Python sea accesible desde la línea de comandos. </p>
