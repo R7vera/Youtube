@@ -11,7 +11,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 def descargar_video():
     url = url_entry.get()
-    ruta_destino = os.path.join(os.getcwd(), "Musica")
+    ruta_destino = os.path.join(os.getcwd(), "VideosDescargados")
 
     try:
         yt = YouTube(url)
