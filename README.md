@@ -16,27 +16,45 @@
 
 ## Pasos 🚶🏻
 
-### Verificar si se tiene Instalado Python
+### Verificar si se tiene Instalado Python ✅
 ```
-    python --version
+python --version
 ```
 
 ### En caso de No, Seguir estos pasos:
-#### Linux:
+#### Linux 🟠:
 ```
-    sudo apt-get update
-    sudo apt-get install python3
-```
-
-#### Mac:
-```
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-```
-    brew install python3
+sudo apt-get update
+sudo apt-get install python3
 ```
 
-#### Windows:
+#### Mac 🍎:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```
+brew install python3
+```
+
+#### Windows 🪟:
 Url: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/<a> <br>
 
 <p> Asegúrate de marcar la casilla que dice "Add Python to PATH" durante la instalación para que Python sea accesible desde la línea de comandos. </p>
+
+### Instalar Libreria pytube 🔴
+```
+pip install pytube
+pip install tkinter
+```
+
+### Para ejecutar:
+#### Windows 🪟:
+```
+python YoutubeMp4.py
+python3 YoutubeMp4.py
+```
+#### Mac 🍎:
+```
+python YoutubeMp4.py
+python3 YoutubeMp4.py
+```
